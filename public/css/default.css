@@ -1,0 +1,292 @@
+/* Webfonts and Icon fonts */
+
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+/* Reset
+      Adapted from:
+      Normalize.css - https://github.com/necolas/normalize.css/
+      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
+------------------------------------------------------------------ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display: block;
+}
+
+code, kbd, pre, samp {
+   font-family: monospace, serif;
+   font-size: 1em;
+}
+
+pre {
+   white-space: pre;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+del { text-decoration: line-through; }
+
+/* Default and Basic Styles
+      Adapted from:
+      Skeleton CSS Framework - http://www.getskeleton.com/
+      Typeplate Typographic Starter Kit - http://typeplate.com/
+------------------------------------------------------------------ */
+
+/* Basic  ------------------------------------------------------- */
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #fff;
+  font-family: 'opensans-regular', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+	color: #838C95;
+
+   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+/*  2. Typography
+       Vertical rhythm with leading derived from 6
+--------------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+   color: #313131;
+	font-family: 'opensans-bold', sans-serif;
+   font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
+h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
+h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
+h5 { font-size: 18px; line-height: 30px; }
+h6 { font-size: 14px; line-height: 30px; }
+
+p { margin: 0 0 30px 0; }
+p img { margin: 0; }
+p.lead {
+   font: 19px/36px 'opensans-light', sans-serif;
+   margin-bottom: 18px;
+}
+
+/*  3. Links  ------------------------------------------------------- */
+
+a, a:visited {
+   text-decoration: none;
+   outline: 0;
+   color: #11ABB0;
+
+   -webkit-transition: color .3s ease-in-out;
+   -moz-transition: color .3s ease-in-out;
+   -o-transition: color .3s ease-in-out;
+   transition: color .3s ease-in-out;
+}
+a:hover, a:focus { color: #313131; }
+p a, p a:visited { line-height: inherit; }
+
+/*  4. List  --------------------------------------------------------- */
+
+ul, ol { margin-bottom: 24px; margin-top: 12px; }
+ul { list-style: none outside; }
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul ul, ul ol,
+ol ol, ol ul { margin: 6px 0 6px 30px; }
+ul ul li, ul ol li,
+ol ol li, ol ul li { margin-bottom: 6px; }
+li { line-height: 18px; margin-bottom: 12px; }
+
+/*  5. Images  --------------------------------------------------------- */
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+/*  6. Buttons  --------------------------------------------------------- */
+
+.button,
+.button:visited,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+   font: 16px/30px 'opensans-bold', sans-serif;
+   background: #11ABB0;
+   display: inline-block;
+	text-decoration: none;
+   letter-spacing: 0;
+   color: #fff;
+	padding: 12px 20px;
+	margin-bottom: 18px;
+   border: none;
+   cursor: pointer;
+   height: auto;
+
+   -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+   background: #3d4145;
+   color: #fff;
+}
+
+.button:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+   background: #3d4145;
+   color: #fff;
+}
+
+.button.full-width,
+button.full-width,
+input[type="submit"].full-width,
+input[type="reset"].full-width,
+input[type="button"].full-width {
+	width: 100%;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	text-align: center;
+}
+
+/* Fix for odd Mozilla border & padding issues */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*  7. Forms  --------------------------------------------------------- */
+
+form { margin-bottom: 24px; }
+fieldset { margin-bottom: 24px; }
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+   display: block;
+   padding: 18px 15px;
+   margin: 0 0 24px 0;
+   border: 0;
+   outline: none;
+   vertical-align: middle;
+   min-width: 225px;
+	max-width: 100%;
+   font-size: 15px;
+   line-height: 24px;
+	color: #647373;
+	background: #D3D9D9;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+   color: #B3B7BC;
+	background-color: #3d4145;
+}
+
+textarea { min-height: 220px; }
+
+label,
+legend {
+   font: 16px/24px 'opensans-bold', sans-serif;
+	margin: 12px 0;
+   color: #3d4145;
+   display: block;
+}
+label span,
+legend span {
+	color: #8B9798;
+   font: 14px/24px 'opensans-regular', sans-serif;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    font-size: 15px;
+    color: #737373;
+}
+
+input[type="checkbox"] { display: inline; }
+
+
+/*  2. Misc -------------------------------------------------------- */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  color: #fff;
+}
+
+.footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+ 
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+
+

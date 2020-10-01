@@ -1,0 +1,130 @@
+#skills {
+    background: #2B2B2B;
+    padding-top: 1rem;
+    overflow: auto;
+    height: calc(100vh - 16rem);
+  }
+  
+  #skills h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #48ddd1;
+    /* TODO COLOR TO THE ABOUT TITLES */
+    margin-bottom: 12px 0 12px 0;
+    /* background-image: radial-gradient(circle, rgba(52,52,52,1) 0%, rgba(178,103,235,1) 51%, rgba(72,221,209,1) 100%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent; */
+  }
+
+  #skills h4{
+    background-image: radial-gradient(circle, rgba(52,52,52,1) 0%, rgba(178,103,235,1) 51%, rgba(72,221,209,1) 100%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    margin: 22px 0 22px 0;
+  }
+
+  #skills button{
+    border-radius: 70px;
+  }
+
+  #skills li{
+    list-style: none;
+    font: 16px/30px 'opensans-bold', sans-serif;
+    /* background: #26ebf17a; */
+    background: #636363;;
+    color: #fff;
+    padding: 12px 20px;
+    margin-bottom: 18px;
+    height: auto;
+    text-align: center;
+
+    /* -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -khtml-border-radius: 3px; */
+     border-radius: 43px;
+  }
+
+  #skills li:hover {
+    /* background: #3d4145; */
+    background: #48ddd1;
+    color: #fff;
+ }
+  
+  #skills p {
+    line-height: 30px;
+    color: #fff;
+  }
+  
+  #skills .address {
+   padding-top: 10px;
+  }
+  
+  #skills .profile-pic {
+    padding: 4rem;
+    width: 100%;
+    align-self: center;
+    border-radius: 100%;
+    max-width: 40rem;
+    min-width: 30rem;
+    margin: 0 auto;
+  }
+  
+  .stretch-fix {
+    align-items: flex-start;
+  }
+  
+  #skills .contact-details { width: 42%; }
+  #skills .download {
+    width: 58%;
+    padding-top: 6px;
+  }
+  
+  #skills .main-col { 
+    padding-right: 5%; 
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  
+  #skills .download .button {
+    margin-top: 6px;
+    background: #444;
+  }
+  #skills .download .button:hover {
+    background: #fff;
+    color: #2B2B2B;
+  }
+  #skills .download .button i {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  
+  #skills .main-row{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media only screen and (min-width: 700px) {
+    #skills .main-row{
+      flex-direction: row;
+    }
+    #skills {
+      padding-top: 96px;
+    }
+    #skills li{
+      margin: 0 0 18px 75px;
+      width: 600px;
+      /* TODO ALIGN CENTER */
+    }
+  }
