@@ -1,7 +1,7 @@
 # Portfolio 
 By Renata D.
 
-[![Netlify Status]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/249b3c9c-039f-4af0-b3f0-e10b448c79a8/deploy-status)](https://app.netlify.com/sites/renatadickinson/deploys)
 
 ## 📌 Summary:
 
@@ -9,7 +9,7 @@ My React Portfolio.
 
 ## 📌🔗 Links:
 
-* Live: [Portfolio]()
+* Live: [Portfolio](https://renatadickinson.netlify.app/)
 * Portfolio: [Github](https://github.com/Seraphyne/react-portfolio-2.0)
 
 ## 📌💻 Technology Used
