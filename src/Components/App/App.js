@@ -7,13 +7,11 @@ import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
 import Skills from '../Skills/Skills';
 import Footer from '../Footer/Footer';
-import { BrowserRouter as Router } from 'react-router-dom'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Router>
         <section className='background' style={{
           background: "url('images/index.jpg')"
         }}>
@@ -42,7 +40,6 @@ class App extends Component {
             <Footer />
           </div>
         </section>
-      </Router>
     );
   }
 }
