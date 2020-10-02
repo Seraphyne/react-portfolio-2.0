@@ -13,7 +13,6 @@ export default function About(props) {
               <p>Hailing all the way from <em>Belo Horizonte, Brazil</em>, I have carved out my nook of the world in Dallas-Fort Worth Metroplex. I am a full stack developer specialized in <b>JavaScript, CSS, HTML, React, Git, GitHub, Node.js, PostgreSQL and JWT</b>. I have decided that programming is my passion and enrolled in the full-time Engineering Immersion program at Thinkful, where I built a strong foundation in responsive web design and full stack web development. </p>
               <p>In addition to my experience at <em>Thinkful</em>, my professional experience ranges from tour guide, English and History teacher, customer support and barista. I am constantly seeking out new technologies to learn in order to implement into my personal projects. </p>
               <p>In my downtime, I enjoy gaming, including VR, bike, read books, watch Netflix and listen to music. </p>
-              <p>Feel free to message me! I look forward to connecting with you! </p>
           <div className="row">
             <div className="column contact-details">
               <h2>Contact Details</h2>

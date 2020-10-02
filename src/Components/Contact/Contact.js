@@ -102,7 +102,7 @@ export default function Contact(props) {
                 value={subject} />
               </div>
               <div>
-                <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                <label htmlFor="contactMessage">Text <span className="required">*</span></label>
                 <textarea cols={50} rows={15} id="contactMessage" name="contactMessage"
                   onChange={e => setMessage(e.target.value)}  required
                   placeholder="Your message here" value={message} />

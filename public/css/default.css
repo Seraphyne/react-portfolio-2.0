@@ -227,7 +227,7 @@ select {
    border: 0;
    outline: none;
    vertical-align: middle;
-   min-width: 225px;
+   min-width: 250px;
 	max-width: 100%;
    font-size: 15px;
    line-height: 24px;
@@ -265,6 +265,17 @@ input[type="radio"] {
 }
 
 input[type="checkbox"] { display: inline; }
+
+@media only screen and (min-width: 800px) {
+   input[type="text"],
+   input[type="password"],
+   input[type="email"],
+   textarea,
+   select {
+      margin: 0 0 24px 0;
+   } 
+}
+
 
 
 /*  2. Misc -------------------------------------------------------- */

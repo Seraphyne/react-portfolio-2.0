@@ -91,7 +91,7 @@
   }
   
   #skills .main-col { 
-    padding-right: 5%; 
+    /* padding-right: 5%;  */
     width: 90%;
     margin: 0 auto;
     text-align: justify;
@@ -125,6 +125,8 @@
     #skills li{
       margin: 0 0 18px 75px;
       width: 600px;
-      /* TODO ALIGN CENTER */
+    }
+    #skills .main-col{
+      padding-right: 10%; 
     }
   }
