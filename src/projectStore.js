@@ -1,5 +1,25 @@
 const projects = [
   {
+    title: 'HappyPaws',
+    subTitle: 'React-CockroachDB',
+    techs: [
+      'React',
+      'React Router',
+      'Enzyme',
+      'Docker',
+      'CockroachDB',
+      'Flyway',
+      'Maven',
+      'Spring Boot',
+    ],
+    description: 'HappyPaws is an application that helps unit adopted pets with their new families. This was React based web application that helps coordinate the transfer of newly adopted pets to their permanent homes via a network of volunteer drivers. On the server site Docker for Windows was used to create a 3-node CockroachDB database cluster. Flyway was used, along with its Maven plugin, to execute SQL scripts for creating tables and inserting data. The server application runs on Spring Boot, and delivers a REST API. This application was selected the Winner of "HackOrTreat?" Hackathon in October 2020 under the submission of Best Use of CockroachDB. This was a group project and the credit goes to: Rory and Renata Dickinson.',
+    imagePaths: [
+      'images/portfolio/happy.png',
+    ],
+    gitHubLink: 'https://github.com/SharkDemon/happy-paws',
+    liveSite: 'https://www.youtube.com/watch?v=jkqycSnkc2Q&feature=youtu.be'
+  },
+  {
     title: 'Binaural',
     subTitle: 'React-Node',
     techs: [
