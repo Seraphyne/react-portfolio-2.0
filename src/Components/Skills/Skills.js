@@ -24,6 +24,7 @@ export default function Skills() {
                      <li>Node</li>
                      <li>Express</li>
                      <li>JWT</li>
+                     <li>Ruby on Rails</li>
                      <li>Mocha & Chai</li>
                      <li>Nodemon</li>
                      <li>Supertest</li>
