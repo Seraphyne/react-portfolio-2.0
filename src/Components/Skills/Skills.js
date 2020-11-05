@@ -10,7 +10,7 @@ export default function Skills() {
                   <div className="column main-col">
                      <h4>FrontEnd</h4>
                      <li>HTML5</li>
-                     <li>Javascript</li>
+                     <li>JavaScript</li>
                      <li>CSS</li>
                      <li>jQuery</li>
                      <li>React</li>
@@ -21,9 +21,9 @@ export default function Skills() {
                   <div className="column main-col">
                      <h4>BackEnd</h4>
                      <li>PostgreSQL</li>
-                     <li>Node</li>
+                     <li>Node.js</li>
                      <li>Express</li>
-                     <li>JWT</li>
+                     <li>JWT - JSON Web Token</li>
                      <li>Ruby on Rails</li>
                      <li>Mocha & Chai</li>
                      <li>Nodemon</li>
