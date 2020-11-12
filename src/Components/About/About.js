@@ -24,7 +24,8 @@ export default function About(props) {
           </div>
           <div className="column">
               <p>
-                <a href="pdf/ResumeRenataD.pdf" className="button" rel="noopener noreferrer" target="_blank"><i className="fa fa-download" /> Download Resume</a>
+                <b>For more information and my resume, please, send an email.</b>
+                {/* <a href="pdf/ResumeRenataD.pdf" className="button" rel="noopener noreferrer" target="_blank"><i className="fa fa-download" /> Download Resume</a> */}
               </p>
           </div>
         </div>

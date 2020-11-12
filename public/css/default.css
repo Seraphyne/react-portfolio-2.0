@@ -139,7 +139,7 @@ li { line-height: 18px; margin-bottom: 12px; }
 /*  5. Images  --------------------------------------------------------- */
 
 img {
-   max-width: 100%;
+   max-width: auto;
    height: auto;
 }
 

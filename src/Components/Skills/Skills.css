@@ -2,9 +2,18 @@
     background: #2B2B2B;
     padding-top: 1rem;
     overflow: auto;
-    height: calc(100vh - 16rem);
+    height: calc(100vh - 12rem);
   }
-  
+
+  #skills .main-row{
+    flex-direction: row;
+  }
+
+  #skills .flex{
+    display: flex;
+    flex-direction: row;
+  }
+
   #skills h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
     color: #48ddd1;
@@ -26,10 +35,7 @@
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     margin: 22px 0 22px 0;
-  }
-
-  #skills button{
-    border-radius: 70px;
+    padding-left: 42px;
   }
 
   #skills li{
@@ -38,10 +44,12 @@
     /* background: #26ebf17a; */
     background: #636363;;
     color: #fff;
-    padding: 12px 20px;
-    margin-bottom: 18px;
+    padding: 5px;
+    margin: 0 1rem 1rem 0;
     height: auto;
     text-align: center;
+    border-radius: 15px;
+    width: 150px;
 
     /* -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -52,7 +60,6 @@
      -moz-border-radius: 3px;
      -webkit-border-radius: 3px;
      -khtml-border-radius: 3px; */
-     border-radius: 43px;
   }
 
   #skills li:hover {
@@ -60,35 +67,6 @@
     background: #48ddd1;
     color: #fff;
  }
-  
-  #skills p {
-    line-height: 30px;
-    color: #fff;
-  }
-  
-  #skills .address {
-   padding-top: 10px;
-  }
-  
-  #skills .profile-pic {
-    padding: 4rem;
-    width: 100%;
-    align-self: center;
-    border-radius: 100%;
-    max-width: 40rem;
-    min-width: 30rem;
-    margin: 0 auto;
-  }
-  
-  .stretch-fix {
-    align-items: flex-start;
-  }
-  
-  #skills .contact-details { width: 42%; }
-  #skills .download {
-    width: 58%;
-    padding-top: 6px;
-  }
   
   #skills .main-col { 
     /* padding-right: 5%;  */
@@ -114,19 +92,46 @@
     display: flex;
     flex-direction: column;
   }
-  
-  @media only screen and (min-width: 700px) {
+
+  @media only screen and (max-width: 640px) {
+
+    #skills .flex{
+      display: flex;
+      flex-direction: column;
+      margin-left: 28px;
+    }
+
+    #skills li {
+      width: 270px;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
     #skills .main-row{
       flex-direction: row;
     }
     #skills {
       padding-top: 96px;
     }
-    #skills li{
-      margin: 0 0 18px 75px;
-      width: 600px;
+    #skills .flex{
+      display: flex;
+      flex-direction: row;
     }
+    #skills li{
+      margin: 0 0 18px 10px;
+      width: 200px;
+      padding: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px){
+
     #skills .main-col{
-      padding-right: 10%; 
+      /* width: auto; */
+    }
+
+    #skills li{
+      width: 300px;
+      margin: 0 0 18px 10px;
     }
   }

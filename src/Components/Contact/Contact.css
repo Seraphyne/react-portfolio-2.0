@@ -2,7 +2,8 @@
   background: #2B2B2B;
   padding-top: 26px;
   color: #636363;
-  overflow: hidden;
+  overflow: auto;
+  height: calc(100vh - 12rem);
 }
 #contact .section-head { 
   width: 80%;

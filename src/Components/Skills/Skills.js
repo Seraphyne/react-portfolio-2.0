@@ -5,7 +5,7 @@ export default function Skills() {
     return (
         <section id="skills">
           <div className="main-row">
-            <div className="column main-col">
+            <div className="column main-col flex">
                 <h2>Languages</h2>
                   <div className="column main-col">
                      <h4>FrontEnd</h4>

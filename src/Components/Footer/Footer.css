@@ -16,5 +16,13 @@
 }
 
 .footer .social-links li{
-  margin: 0 2rem;
+  margin: 0 1rem;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .footer .social-links li{
+    margin: 0 2rem;
+  }
+
 }

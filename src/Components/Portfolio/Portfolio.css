@@ -1,9 +1,7 @@
-
-
 #portfolio {
   background: #2B2B2B;
-  overflow: hidden;
-  height: calc(100vh - 16rem);
+  overflow: auto;
+  height: calc(100vh - 12rem);
   display: flex;
   flex-direction: row;
   color: #FFF;
@@ -264,7 +262,7 @@
     position: relative;
     flex-direction: column;
     height: calc(100vh - 8rem);
-    margin-bottom: -8rem;
+    /* margin-bottom: -8rem; */
   }
 
   #portfolio h2{
