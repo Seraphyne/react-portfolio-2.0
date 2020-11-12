@@ -2,7 +2,7 @@
     background: #2B2B2B;
     padding-top: 1rem;
     overflow: auto;
-    height: calc(100vh - 12rem);
+    height: calc(100vh - 16rem);
   }
 
   #skills .main-row{

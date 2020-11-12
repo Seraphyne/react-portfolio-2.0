@@ -3,7 +3,7 @@
   padding-top: 26px;
   color: #636363;
   overflow: auto;
-  height: calc(100vh - 12rem);
+  height: calc(100vh - 16rem);
 }
 #contact .section-head { 
   width: 80%;

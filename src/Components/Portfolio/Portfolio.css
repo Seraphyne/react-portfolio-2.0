@@ -1,7 +1,7 @@
 #portfolio {
   background: #2B2B2B;
   overflow: auto;
-  height: calc(100vh - 12rem);
+  height: calc(100vh - 16rem);
   display: flex;
   flex-direction: row;
   color: #FFF;
@@ -168,6 +168,7 @@
   #portfolio {
     display: flex;
     flex-direction: row;
+    height: calc(100vh - 16rem);
   }
 
   #portfolio .main-row { 
@@ -212,7 +213,7 @@
   }
 }
 
-@media only screen and (max-height: 850px) {
+@media only screen and (min-height: 850px) {
   #portfolio {
     display: flex;
     flex-direction: row;
@@ -261,7 +262,7 @@
   #portfolio {
     position: relative;
     flex-direction: column;
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 16rem);
     /* margin-bottom: -8rem; */
   }
 
