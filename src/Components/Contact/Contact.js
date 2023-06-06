@@ -53,6 +53,7 @@ export default function Contact(props) {
 
   return (
     <section id="contact">
+      <div className='margin'> 
       <div className="row section-head">
         <div className="column">
           <h1><span>Get In Touch.</span></h1>
@@ -124,6 +125,7 @@ export default function Contact(props) {
             <li>Dallas-Fort Worth Metroplex, TX</li>
           </ul>
         </div> */}
+        </div>
       </div>
     </section>
   );

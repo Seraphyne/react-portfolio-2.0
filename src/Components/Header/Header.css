@@ -16,7 +16,7 @@ header{
   font: 1.5rem 'opensans-bold', sans-serif;
   width: 100%;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
+  /* letter-spacing: 1px; */
   margin: auto;
 }
 
@@ -47,7 +47,7 @@ ul#nav li a { color: #fff; }
 ul#nav li a:hover { color: #48ddd1; }
 /* TODO NAV BAR COLOR ON HOVER */
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 650px) {
   ul#nav {
     margin: 2.4rem;
   }

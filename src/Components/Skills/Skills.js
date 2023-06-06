@@ -5,10 +5,12 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="main-row">
-        <div className="column main-col flex">
-          <h2>Languages</h2>
+        <h2>Programming Languages</h2>
+      </div>
+      <div className="main-row move">
+        <div className="main-col flex">
           <div className="column main-col">
-            <h4>FrontEnd</h4>
+            <h4>FrontEnd:</h4>
             <li>HTML5</li>
             <li>JavaScript</li>
             <li>CSS</li>
@@ -22,7 +24,7 @@ export default function Skills() {
             <li>Cypress.io</li>
           </div>
           <div className="column main-col">
-            <h4>BackEnd</h4>
+            <h4>BackEnd:</h4>
             <li>PostgreSQL</li>
             <li>Node.js</li>
             <li>Express</li>
@@ -33,7 +35,7 @@ export default function Skills() {
             <li>Supertest</li>
           </div>
           <div className="column main-col">
-            <h4>DevTools</h4>
+            <h4>DevTools:</h4>
             <li>Git</li>
             <li>GitHub</li>
             <li>Chrome DevTools</li>

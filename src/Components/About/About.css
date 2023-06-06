@@ -6,11 +6,10 @@
 }
 
 #about h2 {
-  font: 22px/30px 'opensans-bold', sans-serif;
+  font: 23px/30px 'opensans-bold', sans-serif;
   /* color: #48ddd1; */
-  /* TODO COLOR TO THE ABOUT TITLES */
   margin-bottom: 12px 0 12px 0;
-  background-image: radial-gradient(circle, rgba(52,52,52,1) 0%, rgba(178,103,235,1) 51%, rgba(72,221,209,1) 100%); 
+  background-image: radial-gradient(circle, rgba(178,103,235,1) 21%, rgba(72,221,209,1) 100%); 
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 

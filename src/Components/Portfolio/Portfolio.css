@@ -12,7 +12,13 @@
 }
 
 #portfolio h2{
-  color: #48ddd1;
+  background-image: radial-gradient(circle, rgba(178,103,235,1) 11%, rgba(72,221,209,1) 100%); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  margin: 1rem auto;
 } 
 
 #portfolio h4{

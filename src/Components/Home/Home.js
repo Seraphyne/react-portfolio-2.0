@@ -7,7 +7,7 @@ export default function Header() {
       <div className="row banner">
         <div className="banner-text">
           <h1>Renata Dickinson</h1>
-          <h3>Full stack web developer. </h3>
+          <h3>Project Manager. </h3>
         </div>
       </div>
     </section >

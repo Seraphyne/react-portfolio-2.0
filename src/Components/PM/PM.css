@@ -1,4 +1,4 @@
-#skills{
+#pm{
   background: #2b2b2b;
   padding-top: 1rem;
   overflow: auto;
@@ -6,25 +6,25 @@
   font: "opensans-bold", sans-serif;
 }
 
-#skills .main-row {
+#pm .main-row {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
 }
 
-#skills .move{
+#pm .move{
   align-items: center;
   margin-top: 1rem auto;
   /* padding: 2% 10% 10% 10%; */
   padding: 2% auto 10% 10%;
 }
 
-#skills .flex {
+#pm .flex {
   display: flex;
   flex-direction: row;
 }
 
-#skills h2 {
+#pm h2 {
   font: 23px/30px 'opensans-bold', sans-serif;
   background-image: radial-gradient(circle, rgba(178,103,235,1) 11%, rgba(72,221,209,1) 100%); 
   background-clip: text;
@@ -35,7 +35,7 @@
   margin: 1rem auto;
 }
 
-#skills h4 {
+#pm h4 {
   background-image: radial-gradient(circle, rgba(178, 103, 235, 1) 21%, rgba(72, 221, 209, 1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -45,7 +45,7 @@
   margin: 1rem auto;
 }
 
-#skills li {
+#pm li {
   list-style: none;
   font: 16px/30px "opensans-bold", sans-serif;
   /* background: #26ebf17a; */
@@ -67,40 +67,40 @@
      -khtml-border-radius: 3px; */
 }
 
-#skills li:hover {
+#pm li:hover {
   /* background: #3d4145; */
   background: #48ddd1;
   color: #fff;
 }
 
-#skills .main-col {
+#pm .main-col {
   width: auto;
   margin: 1rem;
 }
 
-#skills .button {
+#pm .button {
   margin-top: 6px;
   background: #444;
 }
-#skills .button:hover {
+#pm .button:hover {
   background: #fff;
   color: #2b2b2b;
 }
-#skills .button i {
+#pm .button i {
   margin-right: 15px;
   font-size: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
-  #skills {
+  #pm {
     padding-top: 3rem;
   }
 
-  #skills h2 {
+  #pm h2 {
     margin-left: 40%;
   }
 
-  #skills li {
+  #pm li {
     width: 250px;
     margin: 0 0 18px 10px;
   }
@@ -109,56 +109,60 @@
 
 @media only screen and (max-width: 850px) {
 
-  #skills {
+  #pm {
     padding-top: 1rem;
   }
 
-  #skills .main-row {
+  #pm .main-row {
     flex-direction: row;
     align-items: center;
   }
+  #pm .main-col{
+    margin: 2rem auto;
+  }
 
-  #skills .flex {
+  #pm .flex {
     display: flex;
     flex-direction: row;
   }
 
-  #skills h2 {
+  #pm h2 {
     margin: 1rem auto;
   }
 
-  #skills .move{
+  #pm .move{
   align-items: center;
   margin-top: 1rem auto;
   padding: 2% auto 10% 70%;
-  background-color: yellow;
   }
 
-  #skills li {
+  #pm li {
     margin: 0 0 18px 10px;
-    width: 170px;
   }
 }
 
 @media only screen and (max-width: 675px) {
-    #skills {
+    #pm {
     padding: 1rem;
   }
 
-  #skills .flex {
+  #pm .flex {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
   }
 
-  #skills .move{
+  #pm .main-col{
+    margin: 2rem auto;
+  }
+
+  #pm .move{
   align-items: center;
   margin-top: 1rem auto;
   padding: 2% auto 10% 20%;
-  background-color: red;
 }
 
-  #skills li {
+  #pm li {
     width: 270px;
   }
 }
